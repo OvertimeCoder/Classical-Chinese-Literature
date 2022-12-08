@@ -3,7 +3,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 project(CCL)
 
-set( SOURCE_FILE SHARED src/main.cc)
+set( SOURCE_FILE STATIC src/word.cc src/word.hpp)
 
 add_library(${PROJECT_NAME} ${SOURCE_FILE})
 

@@ -9,6 +9,8 @@
 * 0 = 無し | 1 = 一点 | 2 = 二点 | 3 = レ点
 */
 
+#include <vector>
+
 class Word {
 private:
     char word;
@@ -22,4 +24,4 @@ public:
     void setWord(char w) {word=w;}
 };
 
-void parse(Word w[]);
+void parse(std::vector<Word> w);
